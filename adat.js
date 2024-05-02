@@ -1,6 +1,6 @@
 export const szamarLISTA=[
     {
-    nev:"shadow",
+    nev:"Shadow",
     fajta:"Poitou",
     szin:"fekete",
     magassag:"160",
@@ -28,7 +28,7 @@ export const szamarLISTA=[
     magassag:"140",
     szul_datum:"2022.01.04",
     ar:"180000ft",
-    kep:"kepek/amiatian.png",
+    kep:"kepek/csacsi.png",
     termekleiras:"Az Amiatina egy ritka olasz szamarafajta, melyet az Amiata-hegyek területén tenyésztenek, jellegzetes hosszú, dús szőrével és erős testfelépítésével.",
     },
     {
@@ -38,11 +38,11 @@ export const szamarLISTA=[
     magassag:"170",
     szul_datum:"2023.06.23",
     ar:"340783ft",
-    kep:"kepek/Bourbonnais.png",
+    kep:"kepek/szia.png",
     termekleiras:"A Bourbonnais szamár Franciaországban őshonos, közepes méretű, erős, de elegáns megjelenésű fajta.",
     } , 
     {
-    nev:"samantha",
+    nev:"Samantha",
     fajta:"cotentin ",
     szin:"fekete",
     magassag:"155",
