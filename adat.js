@@ -1,12 +1,13 @@
-const szamarlista=[
+export const szamarLISTA=[
     {
     nev:"shadow",
     fajta:"Poitou",
     szin:"fekete",
     magassag:"160",
     szul_datum:"2024.04.01", 
-    ár:"300000ft" ,
-    képe:"kepek/poitou.png",
+    ar:"300000ft" ,
+    kep:"kepek/poitou.png",
+    termekleiras:"A Poitou szamárnak hosszú, tüsi hajszőre van, különleges megjelenésű és jól alkalmazkodott a nehéz munkához.",
 
     },
     
@@ -16,8 +17,9 @@ const szamarlista=[
     szin:"barna",
     magassag:"150",
     szul_datum:"2023.11.04",
-    ár:"250000ft",
-    képe:"kepek/andalusian.png",
+    ar:"250000ft",
+    kep:"kepek/andalusian.png",
+    termekleiras:"Az andalúz ló elegáns megjelenésű, híres kiegyensúlyozott természetéről és magas szintű teljesítményéről, különösen a klasszikus lovas művészetek terén.",
     },
     {
     nev:"Grafit",
@@ -25,8 +27,9 @@ const szamarlista=[
     szin:"barna",
     magassag:"140",
     szul_datum:"2022.01.04",
-    ár:"180000ft",
-    képe:"kepek/amiatian.png",
+    ar:"180000ft",
+    kep:"kepek/amiatian.png",
+    termekleiras:"Az Amiatina egy ritka olasz szamarafajta, melyet az Amiata-hegyek területén tenyésztenek, jellegzetes hosszú, dús szőrével és erős testfelépítésével.",
     },
     {
     nev:"Rumli",
@@ -34,8 +37,9 @@ const szamarlista=[
     szin:"fehér",
     magassag:"170",
     szul_datum:"2023.06.23",
-    ár:"340783ft",
-    képe:"kepek/Bourbonnais.png",
+    ar:"340783ft",
+    kep:"kepek/Bourbonnais.png",
+    termekleiras:"A Bourbonnais szamár Franciaországban őshonos, közepes méretű, erős, de elegáns megjelenésű fajta.",
     } , 
     {
     nev:"samantha",
@@ -43,8 +47,9 @@ const szamarlista=[
     szin:"fekete",
     magassag:"155",
     szul_datum:"2020.04.25",
-    ár:"169999ft",
-    képe:"kepek/cotentin.png",
+    ar:"169999ft",
+    kep:"kepek/cotentin.png",
+    termekleiras:"A Cotentin szamár egy kis termetű, robusztus fajta, melyet hagyományosan mezőgazdasági munkákra tenyésztenek, és jellegzetes szürkésbarna színével és erős testfelépítésével rendelkezik.",
     },  
     {
     nev:"Hamu",
@@ -52,7 +57,8 @@ const szamarlista=[
     szin:"szürke",
     magassag:"157",
     szul_datum:"2024.04.07",
-    ár:"200000ft",
-    képe:"kepek/zamorano.png",
+    ar:"200000ft",
+    kep:"kepek/zamorano.png",
+    termekleiras:"A Zamorano-Leonés szamár egy spanyol fajta, amelyet hagyományosan mezőgazdasági munkákra és teherhordásra használtak, különleges megjelenésű, erős testfelépítésű állat.",
     }
 ]
