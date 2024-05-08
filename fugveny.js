@@ -1,34 +1,26 @@
 import {szamarLISTA  } from "./adat.js";
 
 
-export function kartyaosszeallit(szamarLISTA){
-    let kartyaTxt=`<div class="kartyaTarolo">`;
-    
-    szamarLISTA.forEach((szamar) => {
-        kartyaTxt+=`
-
-        <div class=" row" style="padding-top:30px; margin: auto">
-                <div class="col-sm-4" style="width: 400px;   background-image: linear-gradient(to right, lightgreen ,lightgray );">
-                <h2 style="color:black; padding:20px;">${szamar.nev}</h2>
-                <img class="card-img-top" src="${szamar.kep}" alt="Kártya kép" style="width:100%; padding:10px; ">
-                <div class="card-body">
-                    <h4 class="card-title"></h4>
-                    <p class="card-text" style="color:black;">${szamar.termekleiras}</p>
-                    <a href="#" class="btn btn-primary" style="background-color: #F66513; border-color: #F66513">${szamar.ar}</a>
-                    <a href="#" class="btn btn-primary" style="background-color: #F66513; border-color: #F66513" class=".kosarbaGomb">Kosárba</a>
-                </div>
-            </div>
-        </div>`;   
-        
+export function kartyaosszeallit(lista){
+    let txt = "";
+    txt += `<div class="row" d-flex justify-content-start mb-1 >`;
+    lista.forEach((element, i) => {
+        txt += `<div class="col-sm-4" style="width: 400px; background-image: linear-gradient(to right, lightgreen ,lightgray ); border: 1px solid black;">`;
+        txt += `<img class="card-img-top" src="${element.kep}" alt="Card image">`;
+        txt += `<div class="card-body" >`;
+        txt += `<h4 class="card-title">${element.nev}</h4>`;
+        txt += `<p class="card-text">${element.ar}</p>`;
+        txt += `<p class="card-text">Termékleirás: ${element.termekleiras}</p>`;
+        txt += `<a href="#"  style="background-color: orange; border-color: gray;" class="btn btn-primary">Kosár</a>`;
+        txt += `</div>`;
+        txt += `</div>`;
     });
-
-    kartyaTxt+=`</div>`;
-    return kartyaTxt
-
-    
+    txt += "</div>";
+    return txt;
 }
+
 export function megjelenit(txt){
-    const kartyaTarolo=$(".kartyaTarolo");
-    kartyaTarolo.html(txt)
+    const adatokELEM = $("#kartya");
+    adatokELEM.html(txt);
 
 }
